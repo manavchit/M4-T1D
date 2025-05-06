@@ -1,0 +1,4 @@
+T001,Dr. Garima Chopra,Garima@example.com,101 Faculty Rd,Chandigarh,Punjab,160010,Computer Science,Programming Paradigms
+T002,Dr. Naveen Sharma,Naveen@example.com,202 Professor Ave,Mohali,Punjab,160065,Computer Science,Network and Communication
+T003,Dr. Priya Singh,PriyaS@example.com,303 Scholar Dr,Panchkula,Haryana,134120,Computer Science,Backend Development
+T004,Prof. Rajesh Kumar,Rajesh@example.com,404 Educator Ln,Chandigarh,Punjab,160015,Professional Development,Career Skills
