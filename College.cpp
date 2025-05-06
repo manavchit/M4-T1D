@@ -234,10 +234,10 @@ public:
 };
 
 // --------------------------
-// School Management System
+// Collge Management System
 // --------------------------
 
-class School {
+class College {
     string name;
     vector<shared_ptr<Student>> students;
     vector<shared_ptr<Teacher>> teachers;
@@ -245,7 +245,7 @@ class School {
     mutex mtx;
 
 public:
-    School(string name) : name(name) {}
+    College(string name) : name(name) {}
 
     void addStudent(shared_ptr<Student> student) {
         lock_guard<mutex> lock(mtx);
@@ -494,19 +494,19 @@ vector<shared_ptr<Teacher>> readTeachersFromFile(const string& filename) {
 
 int main() {
     try {
-        // Initialize school
-        School school("Chitkara University");
+        // Initialize college
+        College college("Chitkara University");
 
         // Read data from files
         auto students = readStudentsFromFile("students.txt");
         auto teachers = readTeachersFromFile("teachers.txt");
 
-        // Add students and teachers to school
+        // Add students and teachers to College
         for (const auto& student : students) {
-            school.addStudent(student);
+            College.addStudent(student);
         }
         for (const auto& teacher : teachers) {
-            school.addTeacher(teacher);
+            College.addTeacher(teacher);
         }
 
         // Add courses
@@ -517,7 +517,7 @@ int main() {
             make_shared<Course>("PD101", "Professional Development", 3)
         };
         for (const auto& course : course_list) {
-            school.addCourse(course);
+            college.addCourse(course);
         }
 
         // Assign courses to teachers
@@ -548,27 +548,27 @@ int main() {
         };
         
         for (const auto& [student_id, course_id] : enrollments) {
-            school.enrollStudentInCourse(student_id, course_id);
+            College.enrollStudentInCourse(student_id, course_id);
         }
 
         // Demonstrate functional programming
         cout << BOLD << BLUE << "\nDepartment Statistics:" << RESET << endl;
-        auto dept_stats = school.getDepartmentStats();
+        auto dept_stats = College.getDepartmentStats();
         for (const auto& [dept, count] : dept_stats) {
             cout << CYAN << dept << RESET << ": " << count << " teachers" << endl;
         }
 
         // Demonstrate concurrent report generation
         cout << BOLD << BLUE << "\nGenerating reports concurrently..." << RESET << endl;
-        auto reports = school.generateAllStudentReports();
+        auto reports = College.generateAllStudentReports();
         cout << GREEN << "Generated " << reports.size() << " student reports" << RESET << endl;
 
         // Demonstrate reactive programming with WAM updates
-        school.simulateWAMUpdates();
+        College.simulateWAMUpdates();
 
         // Show updated top performers with color coding
         cout << BOLD << BLUE << "\nTop 3 Performers:" << RESET << endl;
-        auto top_performers = school.getTopPerformers(3);
+        auto top_performers = College.getTopPerformers(3);
         for (const auto& [name, wam] : top_performers) {
             string color = GREEN;
             if (wam < 70) color = YELLOW;
@@ -583,19 +583,19 @@ int main() {
 
         // Display all students
         cout << BOLD << MAGENTA << "\n=== ALL STUDENTS ===" << RESET << endl;
-        for (const auto& student : school.getStudents()) {
+        for (const auto& student : College.getStudents()) {
             cout << visitor.visit(*student) << endl;
         }
 
         // Display all teachers
         cout << BOLD << MAGENTA << "\n=== ALL TEACHERS ===" << RESET << endl;
-        for (const auto& teacher : school.getTeachers()) {
+        for (const auto& teacher : College.getTeachers()) {
             cout << visitor.visit(*teacher) << endl;
         }
 
         // Display all courses
         cout << BOLD << MAGENTA << "\n=== ALL COURSES ===" << RESET << endl;
-        for (const auto& course : school.getCourses()) {
+        for (const auto& course : College.getCourses()) {
             cout << visitor.visit(*course) << endl;
         }
 
