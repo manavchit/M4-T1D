@@ -1,0 +1,10 @@
+S001,Palak,Palak@example.com,123 Main St,Chandigarh,Punjab,160002,SENIOR
+S002,Shivam,Shivam@example.com,456 Oak Ave,Mohali,Punjab,160055,JUNIOR
+S003,Rahul,Rahul@example.com,789 Pine Rd,Panchkula,Haryana,134109,SOPHOMORE
+S004,Aakash,Aakash@example.com,321 Elm St,Chandigarh,Punjab,160001,FRESHMAN
+S005,Neha,Neha@example.com,654 Maple Dr,Mohali,Punjab,160059,SENIOR
+S006,Priya,Priya@example.com,987 Cedar Ln,Panchkula,Haryana,134112,JUNIOR
+S007,Rohan,Rohan@example.com,159 Birch Blvd,Chandigarh,Punjab,160003,SOPHOMORE
+S008,Ananya,Ananya@example.com,753 Walnut Ct,Mohali,Punjab,160058,FRESHMAN
+S009,Vikram,Vikram@example.com,246 Spruce Way,Panchkula,Haryana,134115,SENIOR
+S010,Kriti,Kriti@example.com,864 Ash St,Chandigarh,Punjab,160004,JUNIOR
