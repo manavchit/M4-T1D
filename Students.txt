@@ -1,10 +1,10 @@
-S001,Palak,Palak@example.com,123 Main St,Chandigarh,Punjab,160002,SENIOR
-S002,Shivam,Shivam@example.com,456 Oak Ave,Mohali,Punjab,160055,JUNIOR
-S003,Rahul,Rahul@example.com,789 Pine Rd,Panchkula,Haryana,134109,SOPHOMORE
-S004,Aakash,Aakash@example.com,321 Elm St,Chandigarh,Punjab,160001,FRESHMAN
-S005,Neha,Neha@example.com,654 Maple Dr,Mohali,Punjab,160059,SENIOR
-S006,Priya,Priya@example.com,987 Cedar Ln,Panchkula,Haryana,134112,JUNIOR
-S007,Rohan,Rohan@example.com,159 Birch Blvd,Chandigarh,Punjab,160003,SOPHOMORE
-S008,Ananya,Ananya@example.com,753 Walnut Ct,Mohali,Punjab,160058,FRESHMAN
-S009,Vikram,Vikram@example.com,246 Spruce Way,Panchkula,Haryana,134115,SENIOR
-S010,Kriti,Kriti@example.com,864 Ash St,Chandigarh,Punjab,160004,JUNIOR
+S011,Aditya Sharma,AdityaS@example.com,101 Tech Park Rd,Chandigarh,Punjab,160011,SENIOR
+S012,Bhavya Patel,BhavyaP@example.com,202 Smart City Ave,Mohali,Punjab,160066,JUNIOR
+S013,Chetan Verma,ChetanV@example.com,303 Digital Lane,Panchkula,Haryana,134122,SOPHOMORE
+S014,Divya Joshi,DivyaJ@example.com,404 Innovation St,Chandigarh,Punjab,160012,FRESHMAN
+S015,Esha Gupta,EshaG@example.com,505 Cyber Heights,Mohali,Punjab,160067,SENIOR
+S016,Farhan Khan,FarhanK@example.com,606 Data Street,Panchkula,Haryana,134123,JUNIOR
+S017,Gauri Iyer,GauriI@example.com,707 Code Boulevard,Chandigarh,Punjab,160013,SOPHOMORE
+S018,Harsh Malhotra,HarshM@example.com,808 Algorithm Ct,Mohali,Punjab,160068,FRESHMAN
+S019,Ishaan Kapoor,IshaanK@example.com,909 Debugging Way,Panchkula,Haryana,134124,SENIOR
+S020,Jhanvi Reddy,JhanviR@example.com,1010 Binary Lane,Chandigarh,Punjab,160014,JUNIOR
